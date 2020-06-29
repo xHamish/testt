@@ -1,0 +1,49 @@
+body, head{
+    background-color: #252525;
+    background-image: url(../img/Pt.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.holder {
+    display: block;
+    margin: 0 auto;
+    margin-top: 22%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+h1 {
+    font-size: 50px;
+    animation-name: fadein;
+    -moz-animation-name: fadein;
+    -o-animation-name: fadein;
+    -webkit-animation-name: fadein;
+    animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -webkit-animation-name: 2s;
+}
+@keyframes fadein {
+    0% {font-size: 80px;}
+    100% {font-size: 50px;}
+}
+div.btn a{
+    background-color: #202020;
+    color: white;
+    display:inline-block;
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 4px;
+    border:none;
+    outline:none;
+    text-underline-position: unset;
+    text-decoration:none;
+    transition: 0.5s;
+}
+div.btn a:hover {
+    cursor: pointer;
+    padding: 6px;
+    transition: 0.5s;
+}
